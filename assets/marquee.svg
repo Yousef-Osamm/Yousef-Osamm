@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="112" viewBox="0 0 1000 112" role="img" aria-label="React, Django, Python, JavaScript, REST APIs, HTML, CSS — learn, build, ship, repeat">
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,"Inter",Ubuntu,"Helvetica Neue",Arial,sans-serif}
+
+    .m1{animation:m1 36s linear infinite}
+    .m2{animation:m2 22s linear infinite}
+    @keyframes m1{to{transform:translateX(-1900px)}}
+    @keyframes m2{from{transform:translateX(-1000px)}to{transform:translateX(0)}}
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#61DAFB" stop-opacity=".55"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#44B78B" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="st" gradientUnits="userSpaceOnUse" x1="0" x2="950" spreadMethod="reflect"><stop offset="0" stop-color="#61DAFB"/><stop offset=".5" stop-color="#FFD43B"/><stop offset="1" stop-color="#44B78B"/></linearGradient>
+    <linearGradient id="fx" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".1" stop-color="#fff"/><stop offset=".9" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <mask id="m"><rect width="1000" height="112" fill="url(#fx)"/></mask>
+    <clipPath id="c"><rect width="1000" height="112" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="112" fill="#070B14"/>
+    <g mask="url(#m)">
+      <g class="m1 sans" font-size="54" font-weight="900" fill="none" stroke="url(#st)" stroke-width="1.4" letter-spacing="2">
+        <text x="0" y="64" textLength="1900" lengthAdjust="spacingAndGlyphs">REACT • DJANGO • PYTHON • JAVASCRIPT • REST APIs • HTML • CSS • </text>
+        <text x="1900" y="64" textLength="1900" lengthAdjust="spacingAndGlyphs">REACT • DJANGO • PYTHON • JAVASCRIPT • REST APIs • HTML • CSS • </text>
+      </g>
+      <g class="m2 mono" font-size="13" fill="#6B7A99">
+        <text x="0" y="96" textLength="1000" lengthAdjust="spacing">learn → build → ship → repeat   //   frontend ✓   //   backend ⟳   //   full-stack loading   //   </text>
+        <text x="1000" y="96" textLength="1000" lengthAdjust="spacing">learn → build → ship → repeat   //   frontend ✓   //   backend ⟳   //   full-stack loading   //   </text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="111" rx="17.5" fill="none" stroke="url(#edge)"/>
+</svg>
