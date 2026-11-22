@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+  <title id="title">about_me.py</title>
+  <desc id="desc">A Python class describing Yousef: focus React and Django; unlocked HTML, CSS, JavaScript and responsive UI; learning React, Python and Django REST Framework; status: frontend ready, backend compiling.</desc>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .l{opacity:0;animation:in .45s cubic-bezier(.2,.8,.2,1) forwards}
+    @keyframes in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+    .blink{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .hl{opacity:0;animation:hl 7s ease-in-out 5.6s infinite}
+    @keyframes hl{0%,100%{opacity:0}10%,40%{opacity:1}55%{opacity:0}}
+    .k{fill:#C792EA}.f{fill:#82AAFF}.s{fill:#C3E88D}.c{fill:#546E7A;font-style:italic}.p{fill:#89DDFF}.v{fill:#E6EDF7}.n{fill:#F78C6C}.t{fill:#FFCB6B}.d{fill:#8FA3C7}
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#61DAFB" stop-opacity=".45"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#44B78B" stop-opacity=".45"/></linearGradient>
+    <linearGradient id="tab" x1="0" x2="1"><stop offset="0" stop-color="#61DAFB"/><stop offset="1" stop-color="#44B78B"/></linearGradient>
+    <radialGradient id="glow" cx="85%" cy="15%" r="60%"><stop offset="0" stop-color="#44B78B" stop-opacity=".12"/><stop offset="1" stop-color="#44B78B" stop-opacity="0"/></radialGradient>
+    <clipPath id="card"><rect width="1000" height="540" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="540" fill="#0A0F1A"/>
+    <rect width="1000" height="540" fill="url(#glow)"/>
+    <!-- title bar -->
+    <rect width="1000" height="48" fill="#070B14"/>
+    <circle cx="28" cy="24" r="6.5" fill="#FF5F57"/><circle cx="50" cy="24" r="6.5" fill="#FEBC2E"/><circle cx="72" cy="24" r="6.5" fill="#28C840"/>
+    <g class="mono" font-size="13">
+      <rect x="104" y="10" width="150" height="38" rx="8" fill="#0A0F1A"/>
+      <rect x="104" y="46" width="150" height="2" fill="url(#tab)"/>
+      <circle cx="122" cy="29" r="4" fill="#FFD43B"/>
+      <text x="134" y="33.5" fill="#E6EDF7">about_me.py</text>
+      <circle cx="282" cy="29" r="4" fill="#61DAFB" opacity=".6"/>
+      <text x="294" y="33.5" fill="#4F5D7A">Portfolio.jsx</text>
+      <circle cx="418" cy="29" r="4" fill="#44B78B" opacity=".6"/>
+      <text x="430" y="33.5" fill="#4F5D7A">urls.py</text>
+      <text x="972" y="33.5" fill="#4F5D7A" text-anchor="end">UTF-8 · Python 3</text>
+    </g>
+
+    <!-- line highlight on the status line -->
+    <rect class="hl" x="0" y="438" width="1000" height="30" fill="#FFD43B" fill-opacity=".06"/>
+
+    <!-- gutter -->
+    <g class="mono" font-size="14" fill="#2E3B55" text-anchor="end">
+      <text x="44" y="94">1</text><text x="44" y="122">2</text><text x="44" y="150">3</text><text x="44" y="178">4</text>
+      <text x="44" y="206">5</text><text x="44" y="234">6</text><text x="44" y="262">7</text><text x="44" y="290">8</text>
+      <text x="44" y="318">9</text><text x="44" y="346">10</text><text x="44" y="374">11</text><text x="44" y="402">12</text>
+      <text x="44" y="430">13</text><text x="44" y="458">14</text><text x="44" y="486">15</text>
+    </g>
+    <line x1="60" y1="70" x2="60" y2="510" stroke="#141C2E"/>
+
+    <g class="mono" font-size="15.5" >
+      <text x="76" y="94" class="l" style="animation-delay:.2s"><tspan class="k">class</tspan> <tspan class="t">YousefOsama</tspan><tspan class="p">(</tspan><tspan class="t">Developer</tspan><tspan class="p">):</tspan></text>
+      <text x="113" y="122" class="l" style="animation-delay:.5s"><tspan class="c">"""Full-stack developer in the making — React × Django."""</tspan></text>
+      <text x="113" y="178" class="l" style="animation-delay:.8s"><tspan class="v">focus</tspan><tspan class="p" x="198">=</tspan> <tspan class="p">(</tspan><tspan class="s">"React"</tspan><tspan class="p">,</tspan> <tspan class="s">"Django"</tspan><tspan class="p">)</tspan></text>
+      <text x="113" y="206" class="l" style="animation-delay:1.1s"><tspan class="v">unlocked</tspan><tspan class="p" x="198">=</tspan> <tspan class="p">[</tspan><tspan class="s">"HTML"</tspan><tspan class="p">,</tspan> <tspan class="s">"CSS"</tspan><tspan class="p">,</tspan> <tspan class="s">"JavaScript"</tspan><tspan class="p">,</tspan> <tspan class="s">"Responsive UI"</tspan><tspan class="p">]</tspan></text>
+      <text x="113" y="234" class="l" style="animation-delay:1.4s"><tspan class="v">learning</tspan><tspan class="p" x="198">=</tspan> <tspan class="p">[</tspan><tspan class="s">"React"</tspan><tspan class="p">,</tspan> <tspan class="s">"Python"</tspan><tspan class="p">,</tspan> <tspan class="s">"Django REST Framework"</tspan><tspan class="p">]</tspan></text>
+      <text x="113" y="262" class="l" style="animation-delay:1.7s"><tspan class="v">can_ship</tspan><tspan class="p" x="198">=</tspan> <tspan class="s">"clean, responsive frontend projects"</tspan></text>
+      <text x="113" y="318" class="l" style="animation-delay:2s"><tspan class="k">def</tspan> <tspan class="f">daily_loop</tspan><tspan class="p">(</tspan><tspan class="n">self</tspan><tspan class="p">):</tspan></text>
+      <text x="150" y="346" class="l" style="animation-delay:2.3s"><tspan class="k">while</tspan> <tspan class="n">True</tspan><tspan class="p">:</tspan></text>
+      <text x="187" y="374" class="l" style="animation-delay:2.6s"><tspan class="n">self</tspan><tspan class="p">.</tspan><tspan class="f">learn</tspan><tspan class="p">();</tspan> <tspan class="n">self</tspan><tspan class="p">.</tspan><tspan class="f">build</tspan><tspan class="p">();</tspan> <tspan class="n">self</tspan><tspan class="p">.</tspan><tspan class="f">ship</tspan><tspan class="p">()</tspan>   <tspan class="c"># repeat</tspan></text>
+      <text x="76" y="430" class="l" style="animation-delay:3.2s"><tspan fill="#44B78B">&gt;&gt;&gt;</tspan> <tspan class="t">YousefOsama</tspan><tspan class="p">().</tspan><tspan class="f">status</tspan><tspan class="p">()</tspan></text>
+      <text x="76" y="458" class="l" style="animation-delay:4s"><tspan class="s">'frontend: ready ✓   |   backend: compiling...'</tspan></text>
+      <text x="76" y="486" class="l" style="animation-delay:4.6s"><tspan fill="#44B78B">&gt;&gt;&gt;</tspan></text>
+    </g>
+    <rect x="114" y="472" width="9" height="18" fill="#61DAFB" class="blink"/>
+
+    <!-- minimap -->
+    <g opacity=".55">
+      <rect x="902" y="70" width="70" height="440" rx="6" fill="#070B14"/>
+      <g fill-opacity=".8">
+        <rect x="910" y="82" width="34" height="3" rx="1.5" fill="#C792EA"/>
+        <rect x="916" y="90" width="44" height="3" rx="1.5" fill="#546E7A"/>
+        <rect x="916" y="104" width="30" height="3" rx="1.5" fill="#C3E88D"/>
+        <rect x="916" y="112" width="50" height="3" rx="1.5" fill="#C3E88D"/>
+        <rect x="916" y="120" width="46" height="3" rx="1.5" fill="#C3E88D"/>
+        <rect x="916" y="128" width="38" height="3" rx="1.5" fill="#C3E88D"/>
+        <rect x="916" y="142" width="26" height="3" rx="1.5" fill="#82AAFF"/>
+        <rect x="922" y="150" width="18" height="3" rx="1.5" fill="#C792EA"/>
+        <rect x="928" y="158" width="38" height="3" rx="1.5" fill="#F78C6C"/>
+        <rect x="910" y="172" width="32" height="3" rx="1.5" fill="#44B78B"/>
+        <rect x="910" y="180" width="44" height="3" rx="1.5" fill="#C3E88D"/>
+      </g>
+      <rect x="904" y="74" width="66" height="116" rx="4" fill="#61DAFB" fill-opacity=".06" stroke="#61DAFB" stroke-opacity=".25"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="539" rx="21.5" fill="none" stroke="url(#edge)"/>
+</svg>
