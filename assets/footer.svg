@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130" role="img" aria-labelledby="title">
+  <title id="title">Still compiling — see you in the next commit</title>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace}
+    .w1{animation:wave 9s ease-in-out infinite}
+    .w2{animation:wave 12s ease-in-out infinite reverse}
+    .w3{animation:wave 15s ease-in-out infinite}
+    @keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(-120px)}}
+    .blink{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#61DAFB"/><stop offset=".5" stop-color="#FFD43B"/><stop offset="1" stop-color="#44B78B"/></linearGradient>
+    <linearGradient id="fadeX" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".15" stop-color="#fff"/><stop offset=".85" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <mask id="m"><rect width="1000" height="130" fill="url(#fadeX)"/></mask>
+  </defs>
+  <g mask="url(#m)" fill="none" stroke="url(#g)" stroke-linecap="round">
+    <path class="w1" stroke-width="2" stroke-opacity=".9" d="M-40 70 C 60 40, 140 100, 240 70 S 420 40, 520 70 S 700 100, 800 70 S 980 40, 1080 70 S 1260 100, 1360 70"/>
+    <path class="w2" stroke-width="1.5" stroke-opacity=".45" d="M-40 78 C 60 108, 140 48, 240 78 S 420 108, 520 78 S 700 48, 800 78 S 980 108, 1080 78 S 1260 48, 1360 78"/>
+    <path class="w3" stroke-width="1" stroke-opacity=".3" d="M-40 62 C 80 30, 160 94, 280 62 S 480 30, 600 62 S 800 94, 920 62 S 1120 30, 1240 62"/>
+  </g>
+  <text x="500" y="122" text-anchor="middle" class="mono" font-size="13" fill="#8B98B0">&lt;/ still compiling — see you in the next commit &gt;<tspan class="blink" fill="#61DAFB"> _</tspan></text>
+</svg>
